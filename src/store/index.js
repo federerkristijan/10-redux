@@ -1,4 +1,4 @@
-import { configStore } from "redux";
+import { legacy_createStore as createStore } from "redux";
 
 const counterReducer = (state = { counter: 0 }, action) => {
   if (action.type === "increment") {
@@ -17,8 +17,6 @@ const counterReducer = (state = { counter: 0 }, action) => {
 };
 
 // Redux toolkit advices to replace configStore with createStore
-const store = configStore(counterReducer);
-
-// connecting React App with Redux store
+const store = createStore(counterReducer);
 
 export default store;

@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/federerkristijan/10-redux/issues"
   },
-  "homepage": "https://github.com/federerkristijan/10-redux#readme"
+  "homepage": "https://github.com/federerkristijan/10-redux#readme",
+  "dependencies": {
+    "redux": "^4.2.0"
+  }
 }

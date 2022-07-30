@@ -16,7 +16,7 @@ const counterReducer = (state = { counter: 0 }, action) => {
   return state;
 };
 
-// Redux toolkit advices to replace configStore with createStore
+// Redux toolkit advices to replace configStore with createStore, works jsut with legacy_crateStore
 const store = createStore(counterReducer);
 
 export default store;

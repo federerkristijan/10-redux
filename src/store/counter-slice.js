@@ -21,3 +21,5 @@ const counterSlice = createSlice({
     },
   },
 });
+
+export default counterSlice;
